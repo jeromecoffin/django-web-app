@@ -1,0 +1,10 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+
+<h2>{{ listing.title }}</h2>
+
+
+<a href="{% url 'listing-list' %}">Retour à tous les listings</a>
+
+{% endblock %}
